@@ -1,0 +1,12 @@
+[workspace]
+members = [
+    "Source/sdk",
+    "Source/artifacts",
+    "Source/events",
+    "Source/execution",
+    "Source/microservices",
+    "Source/rudimentary",
+    "Source/rudimentary-derive",
+    "Source/security",
+    "Source/tenancy"
+]

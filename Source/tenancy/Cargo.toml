@@ -1,0 +1,12 @@
+[package]
+name = "tenancy"
+version = "0.0.0"
+authors = ["woksin <sindrewilting@gmail.com>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+rudimentary = { path = "../rudimentary" }
+rudimentary-derive = { path = "../rudimentary-derive" }
+uuid = { version = "0.8.2", features = ["serde", "v4"]  }
