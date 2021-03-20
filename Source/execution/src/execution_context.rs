@@ -1,11 +1,11 @@
 use std::{fmt, fmt::Display, fmt::Formatter};
 
-use application_model::*;
 pub use rudimentary::*;
 use rudimentary_derive::ConceptSetup;
+use microservices::*;
 use security::*;
+use tenancy::*;
 use uuid::Uuid;
-use versioning::*;
 
 #[derive(ConceptSetup)]
 pub struct CorrelationId {
